@@ -1,93 +1,178 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
-</style>
+<title>Lisa Monson Design</title>
+<meta charset="UTF-8">
+<meta name="description" content="Lisa Monson Design">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="keywords" content="Lisa, Monson, Design, Interior Design, Exterior Design, Fashion design">
+<meta name="descript" content="YegorCreative">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="CSS/styles.css">
+<link rel="stylesheet"  href="CSS/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="icon" href="Assets/lisamonson.ico" type="image/x-icon"/>
 </head>
+
+
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">LISA MONSON</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+      <span class="openMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <div class="containerForMenu">
+      <div class="sidenavDesctop">
+        <a href="index.html"><img src="Assets/LemonLogo.png" alt="Lisas Logo" height="50px"></a>
+        <a href="index.html">LISA MONSON</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="tel:+1(612)669-0729"><i class="fa fa-phone" style="font-size:48px;color:#36454F"></i></a>
+        <a href="mailto:lisa@lisamonsondesign.com"><i class="fa fa-envelope" style="font-size:48px;color:#36454F"></i></a> 
+        <a href="https://www.instagram.com/lisagmonson/" aria-label="Lisa Monsons Instagram page"><i class="fa fa-instagram" style="font-size:48px;color:#36454F"></i></a>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="firstBanner">
+      <div class="whiteBox">
+      <img src="Assets/LMLogoWhite.png" alt="Lisa monsons Logo" width="200px">
+      <h1>LISA MONSON</h1>
+      <h2>LIFESTYLE DESIGN</h2>
+    </div>
+    </div>
+    <div class="oneColor">
+    <div class="stripes">
+    <div class="aboutLisa">
+      <div class="leftSide">
+        <img src="Assets/LM.png" alt="a picture of Lisa" width="310px">
+      </div>
+      <div class="rightSide">
+        <h1>ABOUT LISA</h1>
+        <p>Passionate about style, Lisa has eye for helping others discover and define their 
+          personal style with ease. She's a wife, mother and style maker with two decades of experience behind her. Art, books, flowers and travel all serve as inspiration for her work. Whether you are looking for personal stylist or interior design consultant, Lisa will help you find a look and style that is exclusively yours.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
-</div>
-
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-</div>
-
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+  <div class="myLinks">
+      
+      <div class="services">
+        
+        <a href="services.html"><h1>STAGING</h1></a>
+      </div>
+     
+      <div class="services">
+       
+        <a href="services.html"> <h1>INTERIOR DESIGN</h1></a>
+      </div>
+      
+      
+      <div class="services">
+       
+        <a href="services.html"><h1>PERSONAL STYLING</h1></a>
+    </div>
    
+    </div>
+<div class="stripes">
+    <div class="slideShow">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 10</div>
+          <img src="Assets/LisaMonson12.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 10</div>
+          <img src="Assets/LisaMonson2.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 10</div>
+          <img src="Assets/LisaMonson3.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 10</div>
+          <img src="Assets/LisaMonson4.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 10</div>
+          <img src="Assets/LisaMonson5.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 10</div>
+          <img src="Assets/LisaMonson6.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 10</div>
+          <img src="Assets/LisaMonson7.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 10</div>
+          <img src="Assets/LisaMonson8.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 10</div>
+          <img src="Assets/LisaMonson9.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 10</div>
+          <img src="Assets/LisaMonson10.png" style="width:100%" class="LisaDesign">
+          <div class="text">Lisa Monson Design</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+          <span class="dot" onclick="currentSlide(8)"></span> 
+          <span class="dot" onclick="currentSlide(9)"></span> 
+          <span class="dot" onclick="currentSlide(10)"></span>
+        </div>
+    </div>
+
+<div class="jasmine">
+
+    <img src="Assets/NewLemonLogo.png" alt="picture of a flower" width="180px">
+</div>
+</div>
+
+<div class="footerMain">
+  <p>©Lisa Monson 2020</p>
+  <a href="https://www.instagram.com/yegorcreative/" aria-label="Link to YegorCreative instagram page">Created by @YegorCreative</a>
+  <a href="index.html"><img src="Assets/LMLogoWhite.png" alt="Lisas Logo" height="90px"></a>
+  <a href="tel:+1(612)669-0729"><i class="fa fa-phone" style="font-size:48px;color:#36454F"></i></a>
+  <a href="mailto:lisa@lisamonsondesign.com"><i class="fa fa-envelope" style="font-size:48px;color:#36454F"></i></a>
+  <a href="https://www.instagram.com/lisagmonson/" aria-label="Lisa Monsons Instagram page"><i class="fa fa-instagram" style="font-size:48px;color:#36454F"></i></a>
+  
+
+</div>
+      <script src="javascript/app.js"></script>
+      <script src="javascript/jquery.min.js"></script>
 </body>
-</html> 
+
+</html>
