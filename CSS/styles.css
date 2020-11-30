@@ -24,13 +24,14 @@ body {
 
   /* 
   colors 
-  #006600 
-   #ff9999
-   #9CD9C2
-   #7d8f29
-   #FFFAF0
-   #dfecef
+  #E0E3DE 
+   #BFBB9C
+   #656C60
+   #121910
+   #081B21
+   #210808
    #36454F
+   #000000
    */
   .sidenav, .openMenu {
     display: none;
@@ -44,7 +45,7 @@ body {
     width: 100%;
     height: 110px;
     background-color: #ffff;
-    border-block-end: double #7d8f29 7px;
+    border-block-end: double #121910 7px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,7 +75,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #dfecef;
+        background-color: #E0E3DE;
         /*background-image: url(../Assets/linen.png);*/
         line-height: 0.9em;
         padding-bottom: 2em;
@@ -88,14 +89,14 @@ body {
         display: flex;
         flex-flow: wrap column;
         align-items: center;
-        background-color:#dfecef;
+        background-color:#E0E3DE  ;
       }
       .firstBanner h1 {
         font-size: 5em;
         color: black;
         text-shadow: 4px 4px #ffff;
         text-align: center;
-        font-family:"Bodoni";
+        font-family: "Gotham";
        padding-top: 20px;
       }
       .firstBanner h2 {
@@ -107,16 +108,31 @@ body {
       }
       .parallax {
         /* The image used */
-        background-image: url("img_parallax.jpg");
+        background-image: url("../Assets/minneapolis.png");
       
         /* Set a specific height */
         height: 500px;
-      
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        color: white;
+      }
+      .text-info {
+        text-align: center;
+    
+        font-size: 3em;
+      }
+      @media only screen and (max-device-width: 1366px) {
+        .parallax {
+          background-attachment: scroll;
+        }
       }
       .oneColor{
         width: 100%;
