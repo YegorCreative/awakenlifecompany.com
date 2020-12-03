@@ -79,6 +79,10 @@ body {
         flex-flow: wrap column;
         align-items: center;
         background-color:#E0E3DE  ;
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .firstBanner h1 {
         font-size: 5em;
@@ -308,4 +312,27 @@ body {
   background-color: #555;
 }
 
+/* About page */
+.mission, .workStaff{
+  /* The image used */
+  background-color: whitesmoke;
 
+  /* Set a specific height */
+ 
+ width: 100%;
+ display: flex;
+ flex-direction: raw;
+ justify-content: center;
+ align-items: center;
+  /* Create the parallax scrolling effect */
+  
+  color: #210808;
+  font-weight: 800;
+}
+.missionRight,.workLeft {
+  width: 30%;
+}
+.missionLeft, .workRight {
+  max-width: 1024px;
+  width: 70%;
+}
