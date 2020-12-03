@@ -8,6 +8,7 @@ body {
     min-width: 320px;
     color: black;
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
   }
 
   /* 
@@ -187,6 +188,34 @@ body {
       }
       .awaken {
         max-width: 750px;
+      }
+      .sideBySide {
+        width: 100%;
+       
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sideLeft,.sideRight {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .sideRight{
+        background-image: url("../Assets/pexels2.png");
+        background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+      }
+      .sideLeft {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
       }
       .myLinks{ 
         width: 100%;
