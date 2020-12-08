@@ -336,3 +336,24 @@ body {
   max-width: 1024px;
   width: 70%;
 }
+
+.theBigIdea {
+  min-width: 320px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.theBigIdea img {
+  
+  max-width: 750px;
+}
+.theBigIdea p {
+  max-width: 750px;
+}
