@@ -357,3 +357,21 @@ body {
 .theBigIdea p {
   max-width: 750px;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  min-width: 320px;
+  width: 750px;
+  max-width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
