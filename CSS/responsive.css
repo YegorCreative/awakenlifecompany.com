@@ -2,6 +2,12 @@
   .servicesAbout {
     padding-left: 5em;
     padding-right: 5em;}
+    .sideLeft, .sideRight, .sideLeft1, .sideRight1 {
+      width: 100%;
+    }
+    .sideBySide, .sideBySide1 {
+      flex-wrap: wrap-reverse;
+    }
 }
 @media screen and (min-width: 1024px){
   .aboutLisa {
