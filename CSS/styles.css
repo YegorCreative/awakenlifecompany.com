@@ -145,6 +145,7 @@ body {
       }
       .parallax  h2 {
         font-family:"Gotham";
+        text-align: center;
       }
       @media only screen and (max-device-width: 1366px) {
         .parallax, .parallax1 {
