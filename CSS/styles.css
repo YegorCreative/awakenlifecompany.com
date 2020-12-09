@@ -117,7 +117,6 @@ body {
       .parallax, .parallax1 {
         /* The image used */
         
-      
         /* Set a specific height */
         height: 500px;
        width: 100%;
@@ -142,7 +141,7 @@ body {
       .text-info {
         text-align: center;
     
-        font-size: 2em;
+        font-size: 25px;
       }
       .parallax  h2 {
         font-family:"Gotham";
