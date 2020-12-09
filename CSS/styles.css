@@ -4,8 +4,9 @@ This CSS resource incorporates links to font software which is the valuable copy
 */
 body {
     margin: 0;
-    width: 100%;
-    min-width: 320px;
+    min-width:320px;
+    max-width: 1440px;
+    margin: 0 auto;
     color: black;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -48,7 +49,7 @@ body {
 .sidenavDesctop a {
         padding: 20px;
         text-decoration: none;
-        font-size: 2em;
+        font-size: 20px;
         color: #210808; 
         display: block;
         transition: 0.3s;
@@ -67,7 +68,7 @@ body {
         background-color: #E0E3DE;
         /*background-image: url(../Assets/linen.png);*/
         line-height: 0.9em;
-        padding-bottom: 2em;
+        padding-bottom: 20px;
       }
       .firstBanner img {
         margin-top: 2em;
@@ -85,7 +86,7 @@ body {
         background-size: cover;
       }
       .firstBanner h1 {
-        font-size: 5em;
+        font-size: 3em;
         color: black;
         text-shadow: 4px 4px #ffff;
         text-align: center;
@@ -141,7 +142,7 @@ body {
       .text-info {
         text-align: center;
     
-        font-size: 3em;
+        font-size: 2em;
       }
       .parallax  h2 {
         font-family:"Gotham";
@@ -182,9 +183,8 @@ body {
       }
       
       .leftSide, .rightSide {
-        width: 50%;
-        font-size: 1.2em;
-        margin: 1em;
+        width: 100%;
+        margin-top: 1em;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -194,28 +194,26 @@ body {
         font-family:"Gotham";
         line-height: 0.8em;
       }
-      .leftSide p, .rightSide p {
-        
-        font-size: 1.1em;
+       .rightSide p{
+         min-width: 300px;
+        max-width: 750px;
+        font-size: 20px;
         line-height: 1.8;
         font-family: "Bodoni";
       }
       .rightSide h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         font-family: "Bodoni";
       }
-      .leftSide {
-       /* background-image: url("../Assets/NewFloralPattern.png");*/
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
+      .leftSide img{
+        max-width: 500px;
       }
       .awaken {
         max-width: 750px;
         box-shadow: 0px 0px 20px 1px #999999;
       }
       .sideBySide, .sideBySide1 {
-        width: 100%; 
+        max-width: 1440px; 
         box-sizing: border-box;
         display: flex;
         justify-content: center;
@@ -233,6 +231,7 @@ body {
         padding: 30px;
       }
       .sideRight img,.sideLeft1 img {
+        max-width: 600px;
         border: double 15px white;
         box-shadow: 0px 0px 20px 1px #999999;
       }

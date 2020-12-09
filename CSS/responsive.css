@@ -22,7 +22,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #7FFFD4;
+        background-color: #E0E3DE ;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -64,11 +64,9 @@
 }
 
 @media screen and (min-width:768px){
-  .leftSide, .rightSide {
-    width: 50%;
-  }
+  
   .aboutLisa {
-    flex-flow: nowrap row;
+    flex-flow: wrap column;
   }
 }
 @media screen and (max-width: 767px){
