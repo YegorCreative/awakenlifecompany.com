@@ -447,3 +447,23 @@ tr:nth-child(even) {
   font-size: 22px;
   background-color: #081B21;
 }
+.threeBox {
+  min-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #555;
+}
+.boxer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.boxer img {
+  max-width: 400px;
+}

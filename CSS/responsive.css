@@ -85,6 +85,11 @@
   .missionLeft, .workRight, .healingLeft, .bigLeft{
     width: 70%;
   }
+  .boxer{
+    width: 33%;
+    margin: 0 auto;
+    flex-flow: wrap column;
+  }
 }
 @media screen and (max-width: 767px){
   .servicesAbout {
