@@ -389,20 +389,49 @@ background-color: whitesmoke;
  padding: 20px;
   background-color: #36454F;
 }
+/* results*/ 
+.resultsBanner{
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.resultsBanner h1{
+  padding: 20px;
+  background-color: #7a7863;
+  max-width: 600px;
+  color: white;
+  margin: 0 auto;
+}
+.resultsBanner p{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.resultsBanner img {
+  max-width: 600px;
+}
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
+  border-collapse: separate;
   min-width: 320px;
   width: 750px;
   max-width: 100%;
+  margin:0 auto;
+  
 }
 
 td, th {
   border: 1px solid #dddddd;
+  border-radius: 25px;
   text-align: left;
-  padding: 8px;
+  padding: 12px;
+  text-align: center;
 }
-
+th{
+  font-size: 23px;
+  color: #BFBB9C;
+  background-color:#081B21;
+}
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #BFBB9C;
 }
