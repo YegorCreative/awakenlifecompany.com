@@ -324,14 +324,14 @@ body {
 }
 .mission, .workStaff, .theBigIdea, .healing, .bigIdea {
   /* The image used */
-  background-color: whitesmoke;
+background-color: whitesmoke;
  width: 95%;
  max-width: 1440;
  margin: 0 auto;
  display: flex;
  justify-content: space-around;
  align-items: center;
- padding: 15px;
+ padding: 25px;
  border-block-start: 7px double #121910;
  
   /* Create the parallax scrolling effect */
@@ -342,10 +342,10 @@ body {
 .mission, .theBigIdea, .healing {
   flex-direction: column;
 }
-.workStaff ,.healing, .bigIdea {
+.workStaff ,.healing,.bigIdea{
   flex-direction: column-reverse;
 }
-.missionRight,.workLeft, .healingLeft, .bigRight{
+.missionRight,.workLeft, .healingLeft .bigRigt{
   width: 100%;
   max-width: 650px;
 }

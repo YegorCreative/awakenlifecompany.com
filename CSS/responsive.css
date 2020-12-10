@@ -79,10 +79,10 @@
     box-shadow: 0px 0px 20px 1px #999999;
   }
  
-  .missionRight,.workLeft, .healingRight, .bigLeft{
+  .missionRight,.workLeft, .healingRight, .bigRight{
     width: 30%;
   }
-  .missionLeft, .workRight, .healingLeft, .bigRight{
+  .missionLeft, .workRight, .healingLeft, .bigLeft{
     width: 70%;
   }
 }
