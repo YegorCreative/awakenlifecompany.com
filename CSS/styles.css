@@ -449,14 +449,16 @@ tr:nth-child(even) {
 }
 .threeBox {
   min-width: 320px;
+  max-width: 1440px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
   margin: 10px;
   background-color: #555;
 }
 .boxer {
+  max-width: 750px;
   width: 100%;
   display: flex;
   flex-direction: column;
