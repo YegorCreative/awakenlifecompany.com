@@ -357,10 +357,12 @@ body {
 .theBigIdea {
   box-sizing: border-box;
   padding:30px;
+  margin: 0 auto;
   background-color: #bfbb9c8f;
 }
 .theBigIdea img {
   box-shadow: 0px 0px 20px 1px #7a7863;
+  width: 100%;
   max-width: 650px;
 }
 .theBigIdea p {
