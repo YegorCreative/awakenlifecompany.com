@@ -74,6 +74,15 @@
   .aboutLisa {
     flex-flow: wrap column;
   }
+  .mission, .workStaff{
+    flex-direction: row;
+  }
+  .missionRight,.workLeft {
+    width: 30%;
+  }
+  .missionLeft, .workRight{
+    width: 70%;
+  }
 }
 @media screen and (max-width: 767px){
   .servicesAbout {
@@ -91,6 +100,12 @@
   }
   .rightSide p{
     font-size: 18px;
+  }
+  .text-info {font-size: 18px;}
+  .parallax  h2 {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
   }
 }
 @media screen and (max-height: 450px) {
