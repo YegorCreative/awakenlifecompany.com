@@ -408,20 +408,23 @@ background-color: whitesmoke;
   margin: 0 auto;
 }
 .resultsBanner img {
-  max-width: 600px;
+  min-width: 300px;
+  width: 700px;
+  width: 100%;
 }
 table {
   font-family: arial, sans-serif;
   border-collapse: separate;
   min-width: 320px;
-  width: 750px;
+  width: 950px;
   max-width: 100%;
   margin:0 auto;
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 5px double #dddddd;
   border-radius: 25px;
   text-align: left;
   padding: 12px;
@@ -434,4 +437,13 @@ th{
 }
 tr:nth-child(even) {
   background-color: #BFBB9C;
+}
+
+.aboutVideo {
+  max-width: 1440px;
+  margin: 30px auto;
+  padding: 30px;
+  color: #e2dfca;
+  font-size: 22px;
+  background-color: #081B21;
 }
