@@ -333,7 +333,7 @@ body {
  align-items: center;
  padding: 15px;
  border-block-start: 7px double #121910;
- box-shadow: 0px 0px 20px 1px #999999;
+ 
   /* Create the parallax scrolling effect */
   
   color: #210808;
@@ -355,21 +355,21 @@ body {
 }
 
 .theBigIdea {
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  background-color: #BFBB9C;
+  box-sizing: border-box;
+  padding:30px;
+  background-color: #bfbb9c8f;
 }
 .theBigIdea img {
   box-shadow: 0px 0px 20px 1px #7a7863;
-  max-width: 750px;
+  max-width: 650px;
 }
 .theBigIdea p {
   max-width: 750px;
-  padding:30px;
+  padding-bottom: 30px;
 }
 .helpNeeded{
   padding: 30px;
+  box-sizing: border-box;
   width: 100%;
   max-width: 1440;
   text-align: center;
