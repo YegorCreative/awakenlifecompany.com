@@ -74,13 +74,14 @@
   .aboutLisa {
     flex-flow: wrap column;
   }
-  .mission, .workStaff{
+  .mission, .workStaff, .healing, .bigIdea{
     flex-direction: row;
   }
-  .missionRight,.workLeft {
+ 
+  .missionRight,.workLeft, .healingRight, .bigLeft{
     width: 30%;
   }
-  .missionLeft, .workRight{
+  .missionLeft, .workRight, .healingLeft, .bigRight{
     width: 70%;
   }
 }

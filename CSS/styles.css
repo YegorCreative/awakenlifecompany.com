@@ -322,7 +322,7 @@ body {
   width: 100%;text-align: center;
   font-size: 25px;
 }
-.mission, .workStaff, .theBigIdea {
+.mission, .workStaff, .theBigIdea, .healing, .bigIdea {
   /* The image used */
   background-color: whitesmoke;
  width: 95%;
@@ -339,17 +339,17 @@ body {
   color: #210808;
   font-weight: 400;
 }
-.mission, .theBigIdea{
+.mission, .theBigIdea, .healing {
   flex-direction: column;
 }
-.workStaff{
+.workStaff ,.healing, .bigIdea {
   flex-direction: column-reverse;
 }
-.missionRight,.workLeft{
+.missionRight,.workLeft, .healingLeft, .bigRight{
   width: 100%;
   max-width: 650px;
 }
-.missionLeft, .workRight {
+.missionLeft, .workRight, .healingRight, .bigLeft {
   max-width: 724px;
   width: 100%;
 }
@@ -366,8 +366,27 @@ body {
 }
 .theBigIdea p {
   max-width: 750px;
+  padding:30px;
 }
-
+.helpNeeded{
+  padding: 30px;
+  width: 100%;
+  max-width: 1440;
+  text-align: center;
+}
+.helpNeeded h1{
+  font-size: 25px;
+}
+.helpNeeded h2{
+  font-size: 22px;
+}
+.helpNeeded a {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+ padding: 20px;
+  background-color: #36454F;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
