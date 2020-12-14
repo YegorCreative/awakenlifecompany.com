@@ -13,6 +13,7 @@
   .aboutLisa {
     margin-top: 30px;
   }
+ 
 }
 @media screen and (max-width: 1024px) {
   .sidenav, .openMenu {
@@ -67,6 +68,9 @@
         width: 90%;
         
       }
+      .threeBox{
+        flex-wrap: wrap;
+      }
 }
 
 @media screen and (min-width:768px){
@@ -87,6 +91,8 @@
   }
   .threeBox {
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .boxer{
     width: 33%;
