@@ -516,7 +516,6 @@ tr:nth-child(even) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-right: 30px;
   color: white;
   font-size: 18px;
 }
@@ -526,11 +525,12 @@ tr:nth-child(even) {
 }
 .pricingTable {
   box-sizing: border-box;
+  position: relative;
 min-width: 320px;
 max-width: 750px;
 padding-top: 30px;
 padding-bottom: 30px;
-margin: 15px auto;
+margin: 25px auto;
 background-color: #bfbb9c75;
 box-shadow: 0px 0px 20px -5px #67637a;
 }
@@ -556,4 +556,58 @@ box-shadow: 0px 0px 20px -5px #67637a;
   width: 100%;
   margin: 15px;
   line-height: 1.5;
+}
+.pricingExplained img {
+  max-width: 600px;
+  width: 100%;
+}
+.sectionLast {
+  box-sizing: border-box;
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-weight: 300;
+  background-color: rgba(245, 245, 245, 0.685);
+}
+.sectionLast h1{
+  font-size: 22px;
+  color: #656C60;
+}
+.sectionLast a{
+  position: relative;
+   padding: 15px;
+   margin-top: 35px;
+   background-color: #BFBB9C;
+   font-size: 20px;
+   text-decoration: none;
+   color: #121910;
+   font-weight: 400;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px -5px #67637a;
+}
+
+/* Contact Page */
+.contactsBanner{
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(245, 245, 245, 0.562);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactsBanner h2 {
+  box-sizing: border-box;
+font-size: 25px;
+max-width: 750px;
+line-height: 2.5;
+color: #121910;
+background-color:#BFBB9C;
+padding-left: 30px;
+padding-right: 30px;
+box-shadow: 0px 0px 20px -5px #67637a;
 }
