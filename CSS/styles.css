@@ -525,13 +525,35 @@ tr:nth-child(even) {
   
 }
 .pricingTable {
+  box-sizing: border-box;
 min-width: 320px;
 max-width: 750px;
 padding-top: 30px;
 padding-bottom: 30px;
-margin: 0 auto;
+margin: 15px auto;
+background-color: #bfbb9c75;
+box-shadow: 0px 0px 20px -5px #67637a;
 }
 .pricingTable a{
   text-decoration: none;
   color: #7d8f29;
+}
+.pricingExplained {
+  box-sizing: border-box;
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.boxsOne, .boxsTwo {
+  box-sizing: border-box;
+  padding: 15px;
+  min-width: 320px;
+  max-width: 650px;
+  width: 100%;
+  margin: 15px;
+  line-height: 1.5;
 }
