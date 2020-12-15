@@ -34,7 +34,7 @@ body {
   .sidenavDesctop {
     width: 100%;
     height: 110px;
-    background-color: #BFBB9C;
+   /* background-color: #BFBB9C;*/
     border-block-end: double #121910 7px;
     display: flex;
     flex-direction: row;
@@ -317,7 +317,7 @@ body {
 }
 .mission, .workStaff, .theBigIdea, .healing, .bigIdea {
   /* The image used */
-background-color: whitesmoke;
+background-color: white;
  width: 95%;
  max-width: 1440;
  margin: 0 auto;
@@ -325,10 +325,9 @@ background-color: whitesmoke;
  justify-content: space-around;
  align-items: center;
  padding: 25px;
- border-block-start: 7px double #121910;
+ /*border-block-start: 7px double #121910;*/
  
   /* Create the parallax scrolling effect */
-  
   color: #210808;
   font-weight: 400;
 }
@@ -418,8 +417,8 @@ table {
 }
 
 td, th {
-  border: 5px double #dddddd;
-  border-radius: 25px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
   text-align: left;
   padding: 12px;
   text-align: center;
@@ -430,7 +429,7 @@ th{
   background-color:#081B21;
 }
 tr:nth-child(even) {
-  background-color: #BFBB9C;
+  background-color: #bfbb9c41;
 }
 
 .aboutVideo {
