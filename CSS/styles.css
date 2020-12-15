@@ -147,14 +147,7 @@ body {
         font-family:"Gotham";
         text-align: center;
       }
-      @media only screen and (max-device-width: 1366px) {
-        .parallax, .parallax1 {
-          background-attachment: scroll;
-          height: auto;
-          padding-top: 30px;
-          padding-bottom: 30px;
-        }
-      }
+      
       .oneColor{
         width: 100%;
         background-color:#BFBB9C;
@@ -509,8 +502,36 @@ tr:nth-child(even) {
 /* Pricing Page */
 
 .pricingBanner {
+  box-sizing: border-box;
   min-width: 320px;
   max-width: 1440px;
   width: 100%;
   text-align: center;
+  height: 600px;
+  background-image: url("../Assets/pexels15.png");
+  background-position: center;
+   background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 30px;
+  color: white;
+  font-size: 18px;
+}
+.pricingBanner p{
+  font-size: 22px;
+  
+}
+.pricingTable {
+min-width: 320px;
+max-width: 750px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin: 0 auto;
+}
+.pricingTable a{
+  text-decoration: none;
+  color: #7d8f29;
 }

@@ -1,3 +1,13 @@
+@media only screen and (max-device-width: 1366px) {
+  .parallax, .parallax1 {
+    background-attachment: scroll;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+ 
+}
+
 @media screen and (max-width: 1220px){
   .servicesAbout {
     padding-left: 5em;
